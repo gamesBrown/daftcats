@@ -1,0 +1,38 @@
+
+
+
+
+#container{
+    height: 800px;
+    width: 800px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-align:  center;
+    font-family: cursive;
+
+}.row{
+    height:30%;
+    display: flex;
+    margin-bottom: 3%;
+    
+}
+.row.top{
+background-color: blueviolet;
+justify-content: space-around;
+}
+.row.middle{
+    background-color:darkblue;
+    justify-content: space-evenly;
+
+}
+.row.bottom{
+    background-color: darkgreen;
+    justify-content:space-around ;
+
+}
